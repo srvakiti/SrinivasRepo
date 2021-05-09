@@ -6,7 +6,7 @@
 	<groupId>com.howtodoinjava.demo</groupId>
 	<artifactId>springbootdemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>SpringBootDemo</name>
 	<description>Spring Boot Demo for http://howtodoinjava.com</description>
@@ -65,15 +65,15 @@
 		</dependency> -->
 		</dependencies>
 
-	<!-- <build>
+	 <build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</build> -->
-	<build>
+	</build> -
+	<!-- <build>
     <finalName>${artifactId}</finalName>
     <plugins>
         <plugin>
@@ -97,6 +97,6 @@
             <version>3.0.0</version>
         </plugin>
     </plugins>
-</build>
+</build> -->
 
 </project>
